@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_rowSpan="200"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitleMemory"
+        style="@android:style/Widget.Holo.Light.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/titleMemory"
+        android:textColor="@color/colorPurple"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:textColor="@color/lightGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/instructions"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textGameSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textGameSize"
+                android:textColor="@color/colorPurple"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radiobuttonGroupSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton
+                    android:id="@+id/rb16cards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb16cards"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonStyle" />
+
+                <RadioButton
+                    android:id="@+id/rb24cards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb24cards"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonStyle" />
+
+                <RadioButton
+                    android:id="@+id/rb30cards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb30Cards"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonStyle" />
+
+                <RadioButton
+                    android:id="@+id/rb40cards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb40Cards"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonStyle" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textGameMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textGameMode"
+                android:textColor="@color/colorPurple"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radiobuttonGroupMode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbModeColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rbModeColor"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonStyle" />
+
+
+                <RadioButton
+                    android:id="@+id/rbModeIcons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rbModeIcons"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonStyle" />
+
+                <RadioButton
+                    android:id="@+id/rbModePaintings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rbModePaintings"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonStyle" />
+
+            </RadioGroup>
+
+            <Switch
+                android:id="@+id/switchSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:switchPadding="20dp"
+                android:text="@string/textSwitchSound"
+                android:textColor="@color/colorPurple"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:theme="@style/SwitchStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:width="220dp"
+        android:background="@drawable/drawablebutton"
+        android:enabled="true"
+        android:text="@string/buttonStart"
+        android:textColor="#dadada"
+        android:textSize="24sp"
+        android:theme="@style/ButtonStyle" />
+
+</LinearLayout>

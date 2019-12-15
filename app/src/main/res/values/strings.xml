@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string name="titleMemory">Memory</string>
+    <string name="buttonStart">Start Game</string>
+    <string name="textGameSize">Game Size</string>
+    <string name="textGameMode">Game Mode</string>
+    <string name="rb16cards">16 Cards</string>
+    <string name="rb24cards">24 Cards</string>
+    <string name="rb30Cards">30 Cards</string>
+    <string name="rb40Cards">40 Cards</string>
+    <string name="rbModeColor">Colors</string>
+    <string name="rbModeIcons">Icons</string>
+    <string name="rbModePaintings">Paintings</string>
+    <string name="instructions">Set the preferred gamesize (number of memory-cards) and the gamemode. Once the game started, try to reveal pairs of cards with as few tries as possible.</string>
+    <string name="textStatsPairs">Pairs:</string>
+    <string name="textStatsAttempts">Attempts:</string>
+    <string name="textStatsRatio">Ratio:</string>
+    <string name="toastMessageEndGame">You Won!</string>
+    <string name="toastMessageIconsBy">Icons made by Freepik from flaticon.com</string>
+    <string name="textSwitchSound">Sound</string>
+    <string name="toastPaintingsBy">Paintings made by @yume_88_art</string>
+</resources>

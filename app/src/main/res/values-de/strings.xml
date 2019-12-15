@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string name="buttonStart">Spiel Starten</string>
+    <string name="instructions">Wähle die gewünschte Spielgrösse (Anzahl Spielkarten) und den Spielmodus aus. Sobald das Spiel gestartet ist, versuche die Paare mit so wenigen Versuchen wie möglich aufzudecken.</string>
+    <string name="rb16cards">16 Karten</string>
+    <string name="rb24cards">24 Karten</string>
+    <string name="rb30Cards">30 Karten</string>
+    <string name="rb40Cards">40 Karten</string>
+    <string name="rbModeColor">Farben</string>
+    <string name="rbModeIcons">Icons</string>
+    <string name="rbModePaintings">Bilder</string>
+    <string name="textGameMode">Spielmodus</string>
+    <string name="textGameSize">Spielgrösse</string>
+    <string name="titleMemory">Memory</string>
+    <string name="textStatsAttempts">Versuche:</string>
+    <string name="textStatsPairs">Paare:</string>
+    <string name="textStatsRatio">Verhältnis:</string>
+    <string name="toastMessageEndGame">Du hast gewonnen!</string>
+    <string name="toastMessageIconsBy">Icons von Freepik auf flaticon.com</string>
+    <string name="textSwitchSound">Ton</string>
+    <string name="toastPaintingsBy">Bilder gemacht von @yume_88_art</string>
+</resources>

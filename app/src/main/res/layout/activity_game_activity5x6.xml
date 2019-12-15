@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/memory_activity_5x6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_5x6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textStatsPairs"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textStatsPairs"
+            android:layout_weight="1"
+            android:textColor="@color/lightGrey"/>
+
+        <TextView
+            android:id="@+id/textPairsCounter"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorPurple"/>
+
+        <TextView
+            android:id="@+id/textStatsAttempts"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textStatsAttempts"
+            android:textColor="@color/lightGrey"/>
+
+        <TextView
+            android:id="@+id/textAttemptsCounter"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorPurple"/>
+
+        <TextView
+            android:id="@+id/textStatsRatio"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textStatsRatio"
+            android:textColor="@color/lightGrey"/>
+
+        <TextView
+            android:id="@+id/textRatioCounter"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorPurple"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout5x6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:columnCount="5"
+        android:foregroundGravity="center"
+        android:orientation="horizontal"
+        android:rowCount="6"
+        android:textAlignment="center"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_5x6"
+        tools:context=".GameActivity" />
+</androidx.constraintlayout.widget.ConstraintLayout>

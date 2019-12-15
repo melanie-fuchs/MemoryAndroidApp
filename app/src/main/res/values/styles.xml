@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MemoryFrameTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">#FF673AB7</item>
+        <item name="colorControlHighlight">#dadada</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:colorControlNormal">#dadada</item>
+        <item name="android:colorControlActivated">#885beb</item>
+        <item name="android:colorControlHighlight">#885beb</item>
+        <item name="android:textColorPrimaryDisableOnly">#dadada</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+    <style name="SwitchStyle" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:colorControlNormal">#dadada</item>
+        <item name="android:colorControlActivated">#885beb</item>
+        <item name="android:colorControlHighlight">#885beb</item>
+        <item name="android:textColorPrimaryDisableOnly">#dadada</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+</resources>
