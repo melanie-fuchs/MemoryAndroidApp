@@ -5,7 +5,8 @@ Melanie Fuchs
 
 
 ### Description of the Application
-The android app is a simple memory-game. The user can play the game with either colors, icons* or paintings*.
+The android app is a simple memory-game. The user can play the game with either colors, icons* or paintings*. There are four different game-sizes available: 16, 24, 30 or 40 cards. The user can also choose to play with sound or without. 
+You can make a custom game by replacing the voice-messages and/or paintings with your personal messages / photos / paintings.
 
 *check source of the art under 'SOURCES'
 
