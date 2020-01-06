@@ -26,6 +26,10 @@ To use you own images simply replace the existing files with your own. Make sure
 <path to your folder>\MemoryAndroidApp\app\src\main\res\drawable
 
 
+### Purpose of the Application
+I created the app in order to get familiar with Android Studio. Due to that, the basics of the game were created when working through a tutorial by <a href="https://www.youtube.com/user/ShivanAngel" title="George Lecakes">George Lecakes</a></div> on youtube. 
+
+
 ### SOURCES
 Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>.
 Paintings made by me.
